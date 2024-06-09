@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+ height: 100vh;
+}
+.header{
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+}
+.header button{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+ul{
+  width:30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.center{
+display: flex;
+height: 100%;
+}
+.navigation{
+  width: 80px;
+  background-color: aqua;
+  height: 100%;
+}
+
+.main{
+  /* width: 60px; */
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+  border: 2px solid green;
+  width:30%;
+  margin-right: 20px;
+}
+.all-tasks{
+  display: flex;
+  
+}
+
+circle {
+  transition: all 0.7s ease-in-out;
+}
+
+.edit-icon-container, .delete-icon-container, .check-icon-container,.back-icon-container{
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: rgb(177, 177, 221); 
+  display: flex;
+margin: 0 auto;
+}
+.edit-icon-container:hover, .delete-icon-container:hover, .check-icon-container:hover, .back-icon-container:hover{
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.edit-icon, .delete-icon, .check-icon, .back-icon{
+  width: 100%;
+  height: auto;
+}
+.task-buttons{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 70%;
+}
+
+.power-mode-btn{
+  background-color: #0379ce;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
